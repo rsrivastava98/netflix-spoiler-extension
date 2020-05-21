@@ -1,0 +1,15 @@
+  {
+    "name": "Netflix Spoilers",
+    "version": "1.0",
+    "description": "Remove Episode Spoilers",
+    "author": "rsrivas2",
+    "permissions": ["tabs", "storage", "declarativeContent", "https://*.netflix.com/"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+  }
